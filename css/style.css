@@ -97,3 +97,30 @@ p {
   z-index: -5;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+.caracte {
+  width: 100%;
+  border-radius: 25px;
+  background-color: #002B67;
+  margin-top: 60px;
+  padding: 20px 0;
+  position: relative;
+  z-index: -10;
+}
+
+hr {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.imagen-contenedor .conect {
+  background-image: url('../assets/images/estudiando.jpg');
+}
+
+.imagen-contenedor .comparte {
+  background-image: url('../assets/images/compartir.jpg');
+}
+
+.imagen-contenedor .funcio {
+  background-image: url('../assets/images/funcionalidades.jpg');
+}
