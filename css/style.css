@@ -137,6 +137,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
