@@ -8,6 +8,7 @@ body {
   background-color: #001B40;
   color: white;
   font-family: sans-serif;
+  text-align: center;
 }
 
 header {
@@ -49,4 +50,50 @@ header a > span {
   background-size: cover;
   vertical-align: middle;
   margin-left: 3px;
+}
+
+.roomeet {
+  width: 90%;
+  margin: 30px auto;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: .9em;
+}
+
+.imagen-contenedor {
+  width: 201px;
+  height: 135px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.imagen-contenedor .imagen-seccion {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/logo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.background-img {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: -5;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
