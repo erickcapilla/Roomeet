@@ -28,12 +28,12 @@ header span {
   margin-right: 30px;
   justify-content: space-between;
   align-items: center;
-  width: 70px;
+  width: 60px;
 }
 
 header span i {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background-image: url('../assets/icons/arrow.svg');
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@ header .menu {
   right: 5px;
   top: 55px;
   border-radius: 10px;
-  transition: 1000ms;
+  transition: 500ms;
 }
 
 .items li {
@@ -101,6 +101,6 @@ header .menu {
 
 header .menu-active {
   display: block;
-  transition: 1000ms;
+  transition: 500ms;
 }
 
