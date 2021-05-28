@@ -33,9 +33,9 @@ header span {
   display: flex;
   color: white;
   margin-right: 30px;
-  text-decoration: none;
-  padding: 8px;
-  color: white;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
 }
 
 header span i {
@@ -78,7 +78,38 @@ header span .arrow-down {
   transform: rotateZ(45deg);
 }
 
+header .menu {
+  display: none;
+  position: absolute;
+  width: 160px;
+  padding: 0 25px 25px;
+  background-color: black;
+  right: 5px;
+  top: 55px;
+  border-radius: 10px;
+  transition: 1000ms;
+}
 
+.items li {
+  list-style: none;
+  border-bottom: 1px solid white;
+  height: 35px;
+  padding: 9px;
+}
+
+.items a {
+  text-decoration: none;
+  color: white;
+}
+
+.items a:hover {
+  text-decoration: underline;
+}
+
+header .menu-active {
+  display: block;
+  transition: 1000ms;
+}
 
 .roomeet {
   width: 90%;
