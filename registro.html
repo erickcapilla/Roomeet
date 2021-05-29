@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registro.css">
+    <title>Registro</title>
+  </head>
+  <body>
+    <form action="" autocomplete="on" class="formRegis">
+			<h2>Registrate</h2>
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<input type="text" placeholder="Nombre" maxlength="30" required autofocus>
+				<input type="text" placeholder="Apellido" maxlength="30" required>
+				<input type="date" name="bday" min="1990-01-01" max="2011-12-31" autocomplete="off" required>
+			</fieldset>
+			<fieldset>
+				<legend>Dirección</legend>
+				<input type="text" placeholder="Calle" required>
+				<input type="text" placeholder="Ciudad" required>
+				<input type="text" placeholder="País" required>
+				<input type="number" placeholder="Código Postal" required>
+			</fieldset>
+			<fieldset>
+				<legend>Contacto</legend>
+				<input type="number" placeholder="Número de Telefono" required>
+				<input type="email" name="email" placeholder="Correo electronico" required>
+			</fieldset>
+			<fieldset>
+				<legend>Contraseña</legend>
+				<input type="password" autocomplete="off" required placeholder="Contraseña">
+				<input type="password" autocomplete="off" required placeholder="Contraseña">
+			</fieldset>
+			<label for="">
+				<textarea name="" id="comentarios_regis" cols="30" rows="10" placeholder="Comentarios"></textarea>
+			</label>
+			<div class="btn-container">
+				<input type="submit" value="Registrame" class="enviar_btn" id="btn_registrar">
+				<button id="btn_prefe">Preferencias</button>
+			</div>
+		</form>
+  </body>
+</html>

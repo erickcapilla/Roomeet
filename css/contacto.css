@@ -1,0 +1,46 @@
+form {
+  width: 85%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #00D015;
+  background-color: #001028;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+h3 {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+input {
+  height: 30px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 15px;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  padding-top: 5px;
+}
+
+.enviar_btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #00D015;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}

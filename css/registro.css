@@ -1,0 +1,115 @@
+.enviar_btn,
+.enviar_btn + button {
+  border: 2px solid #01df14;
+  background-color: transparent;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 1000ms;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.enviar_btn:hover,
+.enviar_btn + button:hover  {
+  background-color: #01df14;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: 1000ms;
+  cursor: pointer;
+}
+
+.formRegis {
+  text-align: center;
+  min-width: 80%;
+  color: white;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+fieldset {
+  margin: 15px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.formRegis input {
+  max-width: 150px;
+  margin: 15px 10px;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+}
+
+.formRegis .enviar_btn,
+.formRegis button {
+  min-width: 80px;
+  max-width: 100px;
+  padding: 8px;
+  height: 35px;
+}
+
+.formRegis .enviar_btn {
+  border: 2px solid rgb(24, 101, 242);
+}
+
+.formRegis .enviar_btn:hover {
+  background-color: rgb(24, 101, 242);
+  color: white;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+}
+
+::placeholder {
+  font-size: 1.2em;
+}
+
+textarea {
+  width: 90%;
+  border-radius: 10px;
+}
+
+
+form {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #00D015;
+  background-color: #001028;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+}
