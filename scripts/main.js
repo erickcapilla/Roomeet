@@ -11,3 +11,21 @@ btn_menu.addEventListener('click', () => {
     menu_card.classList.remove('menu-active')
   }
 })
+
+let slider = document.getElementById('slider')
+  let item = document.querySelectorAll('.items-slider')
+
+	function Next() {
+		let itemFirst = document.querySelectorAll('.items-slider')[0]
+		slider.style.marginLeft = "-200%"
+		slider.style.transition = "all 0.5s"
+		setTimeout(() => {
+			slider.style.transition = "none"
+			slider.insertAdjacentElement('beforeend', itemFirst)
+			slider.style.marginLeft = "-100%"
+		}, 500)
+	}
+
+	setInterval(() => {
+		Next()
+	}, 5000)

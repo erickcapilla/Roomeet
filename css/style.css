@@ -11,6 +11,8 @@ body {
   text-align: center;
 }
 
+/* HEADER */
+
 header {
   width: 100%;
   height: 75px;
@@ -55,6 +57,7 @@ header span .arrow-down {
 
 .btn-menu:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .triangule {
@@ -111,6 +114,12 @@ header .menu-active {
   transition: 1000ms;
 }
 
+/* MAIN */
+
+main {
+  margin-top: 95px;
+}
+
 .roomeet {
   width: 90%;
   margin: 30px auto;
@@ -132,6 +141,7 @@ p {
   height: 135px;
   margin: 30px auto;
   position: relative;
+  z-index: -5;
 }
 
 .imagen-contenedor .imagen-seccion {
@@ -184,6 +194,34 @@ hr {
 
 .imagen-contenedor .funcio {
   background-image: url('../assets/images/funcionalidades.jpg');
+}
+
+.prev {
+  margin-top: 50px;
+}
+
+.slider-contenedor {
+  border: 1px solid black;
+  width: 300px;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.slider {
+  height: 100%;
+  margin-left: -100%;
+  display: flex;
+  position: absolute;
+  left: -3px;
+}
+
+.items-slider img {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
 }
 
 form {
