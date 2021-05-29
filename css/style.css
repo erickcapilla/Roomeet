@@ -117,7 +117,9 @@ header .menu-active {
 /* MAIN */
 
 main {
+  margin: 0 auto;
   margin-top: 95px;
+  max-width: 600px;
 }
 
 .roomeet {

@@ -13,19 +13,29 @@ btn_menu.addEventListener('click', () => {
 })
 
 let slider = document.getElementById('slider')
-  let item = document.querySelectorAll('.items-slider')
+let item = document.querySelectorAll('.items-slider')
 
-	function Next() {
-		let itemFirst = document.querySelectorAll('.items-slider')[0]
-		slider.style.marginLeft = "-200%"
-		slider.style.transition = "all 0.5s"
-		setTimeout(() => {
-			slider.style.transition = "none"
-			slider.insertAdjacentElement('beforeend', itemFirst)
-			slider.style.marginLeft = "-100%"
-		}, 500)
-	}
+function Next() {
+  let itemFirst = document.querySelectorAll('.items-slider')[0]
+  slider.style.marginLeft = "-200%"
+  slider.style.transition = "all 0.5s"
+  setTimeout(() => {
+    slider.style.transition = "none"
+    slider.insertAdjacentElement('beforeend', itemFirst)
+    slider.style.marginLeft = "-100%"
+  }, 500)
+}
 
-	setInterval(() => {
-		Next()
-	}, 5000)
+setInterval(() => {
+  Next()
+}, 5000)
+
+const items_btn = document.querySelectorAll('#item')
+
+items_btn.forEach(item => {
+  item.addEventListener('click', () => {
+    if(!window.scroll(0, document.body.scrollHeight)){
+      window.scroll(0, document.body.scrollHeight);
+    }
+  })
+})
