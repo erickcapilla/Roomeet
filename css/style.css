@@ -27,7 +27,7 @@ header {
 }
 
 header img {
-  width: 130px;
+  width: 135px;
   margin-left: 30px;
 }
 
@@ -58,6 +58,7 @@ header span .arrow-down {
 .btn-menu:hover {
   text-decoration: underline;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .triangule {
@@ -74,7 +75,7 @@ header span .arrow-down {
   content: "";
   width: 20px;
   height: 20px;
-  background-color: black;
+  background-color: #002B67;
   position: absolute;
   top: -55%;
   left: 50%;
@@ -86,7 +87,7 @@ header .menu {
   position: absolute;
   width: 160px;
   padding: 0 25px 25px;
-  background-color: black;
+  background-color: #002B67;
   right: 5px;
   top: 55px;
   border-radius: 10px;
@@ -107,6 +108,7 @@ header .menu {
 
 .items a:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 header .menu-active {
