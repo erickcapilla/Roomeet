@@ -28,7 +28,7 @@ function Next() {
 
 setInterval(() => {
   Next();
-}, 5000);
+}, 3500);
 
 const items_btn = document.querySelectorAll("#item");
 
